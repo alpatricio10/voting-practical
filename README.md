@@ -39,13 +39,13 @@ Ballot files must be in CSV format, with each line representing a voter's prefer
 
 **Example:**
 
-A,C,E,F,G,H,D,B
-A,C,E,F,G,H,D,B
-B,D,E,F,G,H,C,A
-D,B,E,F,G,H,A,C
-E,D,B,C,F,G,H,A
-C,D,E,F,G,H,A,B
-F,G,H,A,B,C,D,E
+- A,C,E,F,G,H,D,B
+- A,C,E,F,G,H,D,B
+- B,D,E,F,G,H,C,A
+- D,B,E,F,G,H,A,C
+- E,D,B,C,F,G,H,A
+- C,D,E,F,G,H,A,B
+- F,G,H,A,B,C,D,E
 
 The above example represents seven voters, each specifying their complete ranking of eight candidates.
 
