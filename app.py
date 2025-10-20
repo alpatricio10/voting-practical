@@ -1,6 +1,12 @@
 import os
 import csv
 
+# Tie Management Strategy
+# Plurality: Select first among tied candidates
+# Plurality with Runoff: Select first among tied candidates
+# Condorcet: Cannot have a tie if there is a winner
+# Borda Count: Select first among tied candidates
+
 # Print the ballot summary, showing unique ballots and their counts
 def PrintBallotSummary(preferences, n, m):
     print("Ballot Summary:")
